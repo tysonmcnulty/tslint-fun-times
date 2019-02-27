@@ -8,6 +8,7 @@
     "copy": "cp -f package.json README.md tslint-fun-times.json build/",
     "clean": "rm -rf build/",
     "lint": "tslint --project tsconfig.json --format codeFrame",
+    "prepare": "run-s copy",
     "test": "./scripts/test-rules",
     "verify": "run-s build lint test"
   },
