@@ -1,0 +1,6 @@
+{
+  "rulesDirectory": "./rules",
+  "rules": {
+    "single-element-tuple": true
+  }
+}
