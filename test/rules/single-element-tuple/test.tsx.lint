@@ -1,0 +1,3 @@
+const cool: [string, number] = ["yes", 123];
+const notCool: [string] = ["nope"];
+               ~~~~~~~~             [Single-element tuples (e.g. [T]) are not allowed. Did you mean T[]?]
